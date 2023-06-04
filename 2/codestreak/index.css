@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: anton;
+}
+
+body {
+    position: relative;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 384px;
+    height: 30px;
+    position: fixed;
+    z-index: 1;
+    background: #FF6969;
+    font-family: anton;
+}
+
+.main {
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    font-size: 12px;
+}
+
+.streak-container {
+    display: grid;
+    grid-template-columns: repeat(5, 75px);
+    grid-template-rows: repeat(40, 70px);
+    margin-left: 5px;
+}
+
+.streak-box {
+    border: 1px solid black;
+}
